@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+.Jerry{
+    text-transform: uppercase;
+    font-size: 2.3em;
+    font-weight: 800;
+}
+#home{
+    height: 130vh;
+    max-width: 1440px;
+}
+.navbar{
+    background: white;
+    box-shadow: 0px 2px 2px 4px black;
+}
+#navnav{
+    background: linear-gradient(0deg, rgba(40, 17, 61, 0.99),rgba(37, 18, 207, 0.5)), url("..//Images/me-eyeglass.png");
+    padding: 10px 13px;
+    border-radius: 50px;
+    box-shadow: 0px 2px 2px 4px white;
+    display: flex;
+    justify-content: space;
+    line-height: 1em;
+}
+#navnav:hover{
+    color: white;
+}
+.first{
+    height: 130vh;
+    padding-top: 17em;
+    background: linear-gradient(0deg, rgba(40, 17, 61, 0.9),rgba(37, 18, 207, 0.7)), url("..//Images/me-eyeglass.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.first h1{
+    font-weight: 800;
+}
+.btn-home{
+   background: linear-gradient(25deg, rgba(40, 17, 61, 0.99),rgba(37, 18, 207, 0.5)), url("..//Images/me-eyeglass.png") ;
+   box-shadow: 0px 2px 2px 4px white;
+   margin-top: 22px;
+}
+.second{
+    background: linear-gradient(0deg, rgba(40, 17, 61, 0.99),rgba(37, 18, 207, 0.5)), url("..//Images/me-eyeglass.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 130vh;
+    padding-top: 17em;
+}
+.fa-facebook-square{
+    background: linear-gradient(0deg, rgba(40, 17, 61, 0.99),rgba(37, 18, 207, 0.5)), url("..//Images/me-eyeglass.png");
+    padding: 10px 13px;
+    border-radius: 200px;
+    box-shadow: 0px 2px 2px 4px white;
+    text-align: center;
+}
+.fa-google{
+    background: linear-gradient(0deg, rgba(40, 17, 61, 0.99),rgba(37, 18, 207, 0.5)), url("..//Images/me-eyeglass.png");
+    padding: 10px 13px;
+    border-radius: 200px;
+    box-shadow: 0px 2px 2px 4px white;
+    text-align: center;
+}
+.fa-instagram{
+    background: linear-gradient(0deg, rgba(40, 17, 61, 0.99),rgba(37, 18, 207, 0.5)), url("..//Images/me-eyeglass.png");
+    padding: 10px 13px;
+    border-radius: 200px;
+    box-shadow: 0px 2px 2px 4px white;
+    text-align: center;
+}
+.fa-twitter{
+    background: linear-gradient(0deg, rgba(40, 17, 61, 0.99),rgba(37, 18, 207, 0.5)), url("..//Images/me-eyeglass.png");
+    padding: 10px 13px;
+    border-radius: 200px;
+    box-shadow: 0px 2px 2px 4px white;
+    text-align: center;
+}
+.second h1{
+    font-weight: 700;
+}
+.third{
+    background: linear-gradient(0deg, rgba(40, 17, 61, 0.99),rgba(37, 18, 207, 0.5)), url("..//Images/me-eyeglass.png");
+    background-position: center;
+    background-size: cover;
+    height: 130vh;
+    padding-top: 17em;
+}
+.third h1{
+    font-weight: 700;
+}
+.serv{
+    background: linear-gradient(0deg, rgba(40, 17, 61, 0.99),rgba(37, 18, 207, 0.5)), url("..//Images/me-eyeglass.png");
+    color: white;
+    height: 200px;
+}
+#about{
+    margin-top: 4em;
+    background: linear-gradient(0deg, rgba(40, 17, 61, 0.99),rgba(37, 18, 207, 0.5)), url("..//Images/me-eyeglass.png");
+    background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    height: 60vh;
+    padding-top: 6em;
+}
+#service h1{
+    font-weight: 800;
+}
+.main{
+    box-shadow: 0px 2px 2px 4px black;
+}
+#about h5 a{
+    padding: 10px 25px;
+}
+.fa-pencil-square-o{
+    color: white;
+    background: transparent;
+    padding: 50px 50px;
+    font-size: 4em;
+}
+.fa-product-hunt{
+    color: white;
+    background: transparent;
+    padding: 50px 50px;
+    font-size: 4em;
+}
+.fa-cogs{
+    color: white;
+    background: transparent;
+    padding: 50px 50px;
+    font-size: 4em;
+}
+.fa-empire{
+    color: white;
+    background: transparent;
+    padding: 50px 50px;
+    font-size: 4em; 
+}
+#cont_img{
+    width: 500px;
+    height: 300px;
+}
+#blog{
+    padding-top: 6em;
+}
+#blog p{
+    line-height: 1.9em;
+    font-weight: 600;
+}
+#blog h5{
+    font-weight: 900;
+}
+.carousel-control-prev{
+        padding: 10px 12px;
+        color: white;
+        background: linear-gradient(25deg, rgba(40, 17, 61, 0.99),rgba(37, 18, 207, 0.5)), url("..//Images/me-eyeglass.png") ;
+        box-shadow: 0px 2px 2px 4px white;
+        height: 50px;
+        width: 50px;
+        border-radius: 120px;
+        font-weight: 900;
+        font-size: 40px;
+        margin-left: 20px;
+}
+.carousel-control-next{
+    padding: 10px 12px;
+    color: white;
+    background: linear-gradient(25deg, rgba(40, 17, 61, 0.99),rgba(37, 18, 207, 0.5)), url("..//Images/me-eyeglass.png") ;
+    box-shadow: 0px 2px 2px 4px white;
+    height: 50px;
+    width: 50px;
+    border-radius: 120px;
+    font-weight: 900;
+    font-size: 40px;
+    margin-right: 20px;
+}
+.carousel-control-next:hover .carousel-control-prev:hover{
+    box-shadow: 0px 3x 3px 6px black;
+}
+.bg-vi{
+    background: linear-gradient(0deg, rgba(40, 17, 61, 0.99),rgba(37, 18, 207, 0.5)), url("..//Images/me-eyeglass.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    padding-top:4em;
+    padding-bottom: 25px;
+    height: 500px;
+}
+.bg-vim{
+    background: linear-gradient(0deg, rgba(6, 136, 34, 0.99),rgba(37, 18, 207, 0.5)), url("..//Images/me-eyeglass.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    padding-top:4em;
+    padding-bottom: 25px;
+    height: 500px;
+}
+.bg-vi a{
+    background: linear-gradient(0deg, rgba(40, 17, 61, 0.99),rgba(37, 18, 207, 0.5)), url("..//Images/me-eyeglass.png");
+    color: white;
+    text-align: center;
+    box-shadow: 0px 3px 3px 5px black;
+    margin-top: 7em;
+}
+.bg-vim a{
+    background: linear-gradient(0deg, rgba(6, 136, 34, 0.99),rgba(37, 18, 207, 0.5)), url("..//Images/me-eyeglass.png");
+    color: white;
+    text-align: center;
+    box-shadow: 0px 3px 3px 5px black;
+    margin-top: 7em;
+}
+footer{
+    background: linear-gradient(0deg, rgba(40, 17, 61, 0.99),rgba(37, 18, 207, 0.5)), url("..//Images/me-eyeglass.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    padding-top: 1em;
+    max-width: 1440px;
+    height: 120px;
+    /* color: white;
+    background: linear-gradient(rgba(190, 10, 100, 0.7),rgba(9, 136, 136,0.8));
+    padding: 20px;
+    max-width: 1440px; */
+} 
+.fa-facebook-square{
+    background: linear-gradient(0deg, rgba(6, 136, 34, 0.99),rgba(37, 18, 207, 0.5)), url("..//Images/me-eyeglass.png");
+    padding: 10px 13px;
+    border-radius: 200px;
+    box-shadow: 0px 2px 2px 4px white;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+.fa-google-plus{
+    background: linear-gradient(0deg, rgba(6, 136, 34, 0.99),rgba(37, 18, 207, 0.5)), url("..//Images/me-eyeglass.png");
+    padding: 10px 13px;
+    border-radius: 200px;
+    box-shadow: 0px 2px 2px 4px white;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+.fa-share-square{
+    background: linear-gradient(0deg, rgba(6, 136, 34, 0.99),rgba(37, 18, 207, 0.5)), url("..//Images/me-eyeglass.png");
+    padding: 10px 13px;
+    border-radius: 200px;
+    box-shadow: 0px 2px 2px 4px white;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+.fa-globe{
+    background: linear-gradient(0deg, rgba(6, 136, 34, 0.99),rgba(37, 18, 207, 0.5)), url("..//Images/me-eyeglass.png");
+    padding: 10px 13px;
+    border-radius: 200px;
+    box-shadow: 0px 2px 2px 4px white;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+.fa-twitter-square{
+    background: linear-gradient(0deg, rgba(6, 136, 34, 0.99),rgba(37, 18, 207, 0.5)), url("..//Images/me-eyeglass.png");
+    padding: 10px 13px;
+    border-radius: 200px;
+    box-shadow: 0px 2px 2px 4px white;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+.hobe:hover{
+    color: black;
+    transform: translateY(-5px);
+    transition: all 0.1s ease-in;
+}
+    /* background: linear-gradient(0deg, rgba(40, 17, 61, 0.99),rgba(37, 18, 207, 0.5)), url("..//Images/me-eyeglass.png");
+    background-position: center; */
+    /* background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 0px 2px 2px 4px white;
+    padding: 10px; */
+footer p:hover{
+    color: black;
+}
+footer p{
+    font-size: 13px;
+}
+#vision{
+    margin-top: 5em;
+    text-align: center;
+}
+
+
+
+
+
+@media (max-width: 606px){
+    .navbar-nav{
+        height: 600px;
+       margin-top: 50px;
+    }
+    #about{
+        height: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    p{
+        font-size: 12px;
+    }
+}
