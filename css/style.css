@@ -24,12 +24,13 @@ ul li{
 }
 #navnav{
     background: linear-gradient(0deg, rgba(40, 17, 61, 0.99),rgba(37, 18, 207, 0.5)), url("..//Images/me-eyeglass.png");
-    padding: 10px 13px;
+    /* padding: 10px 13px; */
     border-radius: 50px;
     box-shadow: 0px 2px 2px 4px white;
-    display: flex;
-    justify-content: space;
-    line-height: 1em;
+    /* display: flex;
+    justify-content: space; */
+    /* line-height: 1em; */
+    border: 0;
 }
 #navnav:hover{
     color: white;
@@ -228,7 +229,7 @@ footer{
     background-size: cover;
     background-attachment: fixed;
     color: white;
-    padding-top: 1em;
+    padding-top: 3em;
     max-width: 1440px;
     height: 120px;
     /* color: white;
@@ -302,10 +303,12 @@ footer p{
 
 
 
+
 @media (max-width: 606px){
     .navbar-nav{
         height: 600px;
-       margin-top: 50px;
+       margin-top: 40px;
+       line-height: 3em;
     }
     #about{
         height: auto;
@@ -313,6 +316,12 @@ footer p{
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
+    }
+    .nav-link{
+        display: flex;
+        justify-content: center;
+       color: white;
+       font-weight: 700;
     }
     p{
         font-size: 12px;
